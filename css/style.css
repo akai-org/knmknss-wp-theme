@@ -1,0 +1,47 @@
+.site-header
+{
+  text-align: center;
+}
+.entry-header
+{
+  display:block;
+  padding: 2vw;
+  background-color: #bbdefb ;
+  text-align: center;
+}
+.entry-content
+{
+  display:block;
+  padding: 2vw;
+  text-align: center;
+}
+.post-edit-link
+{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.main-navigation
+{
+text-align: center;
+}
+.comments-area
+{
+  margin-left:5vw;
+  margin-right:5vw;
+}
+.search-form
+{
+  margin-left:5vw;
+  margin-right:5vw;
+}
+.widget-title
+{
+  border-bottom: solid;
+  margin-left:5vw;
+  margin-right:5vw;
+}
+.site-info
+{
+  text-align: center;
+}
