@@ -28,6 +28,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<div id="rysunek"><img src="http://demur.pl/system/settimage/202/original/kola-zebate-abstrakcja-na-sciane-naklejki-demur.png?1409047946"/></div>
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
