@@ -1,0 +1,16 @@
+.home .post {
+    background: black;
+    width: 48%;
+    height: 300px;
+    margin: 1px;
+    padding: 2%;
+    float: left;
+}
+.home .post .entry-content p{
+    height: 50px;
+    
+}
+.home .post .entry-footer{
+    height: 100px;
+    
+}

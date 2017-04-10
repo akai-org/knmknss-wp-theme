@@ -25,7 +25,7 @@ function knmknss_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( 'Posted on %s', 'post date', 'knmknss' ),
+		esc_html_x( 'Dodano %s', 'post date', 'knmknss' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
@@ -62,7 +62,7 @@ function knmknss_entry_footer() {
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
 		/* translators: %s: post title */
-		comments_popup_link( sprintf( wp_kses( __( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'knmknss' ), array( 'span' => array( 'class' => array() ) ) ), get_the_title() ) );
+		comments_popup_link( sprintf( wp_kses( __( 'Dodaj komentarz<span class="screen-reader-text"> on %s</span>', 'knmknss' ), array( 'span' => array( 'class' => array() ) ) ), get_the_title() ) );
 		echo '</span>';
 	}
 

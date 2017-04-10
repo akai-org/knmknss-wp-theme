@@ -107,7 +107,7 @@ msgstr ""
 #, php-format
 #@ _s
 msgctxt "post date"
-msgid "Posted on %s"
+msgid "Dodano %s"
 msgstr ""
 
 #: inc/template-tags.php:33
