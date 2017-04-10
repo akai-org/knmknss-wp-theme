@@ -17,6 +17,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/damiancss.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/header.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/style.css">
 </head>
 
 <body <?php body_class(); ?>>
